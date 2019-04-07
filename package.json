@@ -16,7 +16,7 @@
     "validate-flow-declarations": "flow",
     "format": "npm run format:assets && npm run lint -- --fix",
     "format:assets": "prettier --ignore-path .gitignore --write \"**/*.{json,md}\"",
-    "prepare": "npm run clean && npm run build && npm run build-flow",
+    "prepare": "npm run clean",
     "precommit": "lint-staged",
     "postinstall": "opencollective-postinstall || exit 0",
     "prepublishOnly": "npm run validate-ts-declarations && npm run validate-flow-declarations"
