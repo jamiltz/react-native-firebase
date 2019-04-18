@@ -536,7 +536,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../react-native/React/**",
 					"${SRCROOT}/../../../ios/Firebase/**",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/**",
+					"${SRCROOT}/../../../../ios/Pods/Headers/Public/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -580,7 +580,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../react-native/React/**",
 					"${SRCROOT}/../../../ios/Firebase/**",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/**",
+					"${SRCROOT}/../../../../ios/Pods/Headers/Public/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
